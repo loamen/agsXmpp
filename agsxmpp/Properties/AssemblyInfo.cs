@@ -21,6 +21,7 @@
 
 using System.Reflection;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 
 //
 // General Information about an assembly is controlled through the following 
@@ -29,12 +30,12 @@ using System.Runtime.CompilerServices;
 //
 
 [assembly: AssemblyTitle("agsXMPP")]
-[assembly: AssemblyDescription("agsXMPP Library")]
+[assembly: AssemblyDescription("agsXMPP Library  is a SDK / library for the eXtensibleMessaging and Presence Protocol (XMPP)")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("AG-Software")]
-[assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("AG-Software")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("Loamen.Com")]
+[assembly: AssemblyProduct("agsXMPP")]
+[assembly: AssemblyCopyright("Loamen.Com")]
+[assembly: AssemblyTrademark("agsXMPP")]
 [assembly: AssemblyCulture("")]
 
 //
@@ -76,3 +77,5 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyKeyFile(@"..\..\key.snk")]
 #endif
 //[assembly: AssemblyKeyName("")]
+[assembly: AssemblyFileVersionAttribute("1.3.1")]
+[assembly: GuidAttribute("0d7cc581-b953-4846-8104-da97d41092df")]
